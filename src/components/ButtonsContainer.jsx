@@ -6,6 +6,9 @@ import DisableShadow from './buttonsTypes/DisableShadow';
 import IconBtn from './buttonsTypes/IconBtn';
 import Outline from './buttonsTypes/Outline';
 import VariantText from './buttonsTypes/VariantText';
+import SizeBtn from './buttonsTypes/SizeBtn';
+import ColorBtn from './buttonsTypes/ColorBtn';
+import ColorBtnHover from './buttonsTypes/ColorBtnHover';
 
 const Container = styled.div `
     margin: 55px 0 0 90px;
@@ -48,6 +51,15 @@ const ButtonsContainer = () => {
             </ButtonsRow>
             <ButtonsRow>
                 <IconBtn />
+            </ButtonsRow>
+            <ButtonsRow>
+                <SizeBtn />
+            </ButtonsRow>
+            <ButtonsRow>
+                <ColorBtn />
+            </ButtonsRow>
+            <ButtonsRow>
+                <ColorBtnHover />
             </ButtonsRow>
         </Container>
     )

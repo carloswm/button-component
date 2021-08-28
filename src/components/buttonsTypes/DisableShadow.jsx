@@ -10,6 +10,7 @@ const DisableShadow = () => {
                 borderColor='1px solid #3D5AFE'
                 titleColor='#333333'
                 btnColor='#FFFFFF'
+                paddingBtn='8px 16px'
             />
         </>
     )

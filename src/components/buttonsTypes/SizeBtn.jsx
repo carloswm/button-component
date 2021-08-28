@@ -1,46 +1,36 @@
 import React from 'react'
+import ButtonComponent from '../ButtonComponent'
 
 const SizeBtn = () => {
     return (
         <>
-            <ThemeProvider theme={theme}>
-                <ButtonComponent
-                    title='<Button size=”sm” />'
-                    background='#2962FF'
-                    borderColor='#2962FF'
-                    titleColor='#000000'
-                    btnColor='#FFFFFF'
-                    boxShadow='0px 2px 3px rgba(0, 49, 202, 0.2)'
-                    padding='0 0 0 10px'
-                    icon={cart}
-                />
-            </ThemeProvider>
-            <ThemeProvider theme={theme}>
-                <ButtonComponent
-                    title='<Button size=”md” />'
-                    background='#2962FF'
-                    borderColor='#2962FF'
-                    titleColor='#000000'
-                    btnColor='#FFFFFF'
-                    boxShadow='0px 2px 3px rgba(0, 49, 202, 0.2)'
-                    icon={cart}
-                    flexDirection='row-reverse'
-                    padding='0 10px 0 0'
-                />
-            </ThemeProvider>
-            <ThemeProvider theme={theme}>
-                <ButtonComponent
-                    title='<Button size=”lg” />'
-                    background='#2962FF'
-                    borderColor='#2962FF'
-                    titleColor='#000000'
-                    btnColor='#FFFFFF'
-                    boxShadow='0px 2px 3px rgba(0, 49, 202, 0.2)'
-                    icon={cart}
-                    flexDirection='row-reverse'
-                    padding='0 10px 0 0'
-                />
-            </ThemeProvider>
+            <ButtonComponent
+                title='<Button size=”sm” />'
+                background='#2962FF'
+                borderColor='#2962FF'
+                titleColor='#000000'
+                btnColor='#FFFFFF'
+                boxShadow='0px 2px 3px rgba(0, 49, 202, 0.2)'
+                paddingBtn='6px 12px'
+            />
+            <ButtonComponent
+                title='<Button size=”md” />'
+                background='#2962FF'
+                borderColor='#2962FF'
+                titleColor='#000000'
+                btnColor='#FFFFFF'
+                boxShadow='0px 2px 3px rgba(0, 49, 202, 0.2)'
+                paddingBtn='8px 16px'
+            />
+            <ButtonComponent
+                title='<Button size=”lg” />'
+                background='#2962FF'
+                borderColor='#2962FF'
+                titleColor='#000000'
+                btnColor='#FFFFFF'
+                boxShadow='0px 2px 3px rgba(0, 49, 202, 0.2)'
+                paddingBtn='10px 22px'
+            />
         </>
     )
 }

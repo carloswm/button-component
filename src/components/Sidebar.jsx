@@ -1,6 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 import ButtonTypes from './ButtonTypes';
+import {
+    Router,
+    Switch,
+    Route
+} from "react-router-dom";
+import ButtonsContainer from './ButtonsContainer';
 
 const Container = styled.div `
     padding: 45px 55px;
@@ -26,7 +32,7 @@ const Sidebar = () => {
             <Title>
                 <TitleSpan>Dev</TitleSpan>challenges.io
             </Title>
-            <ButtonTypes />
+                <ButtonTypes />
         </Container>
     )
 }

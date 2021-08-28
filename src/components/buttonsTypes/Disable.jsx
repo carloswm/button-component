@@ -10,6 +10,7 @@ const Disable = () => {
                 borderColor='#E0E0E0'
                 titleColor='#000000'
                 btnColor='#9E9E9E'
+                paddingBtn='8px 16px'
             />
             <ButtonComponent
                 title='<Button variant=”text” disabled />'
@@ -18,6 +19,7 @@ const Disable = () => {
                 titleColor='#333333'
                 btnColor='#9E9E9E'
                 hoverBackground='transparent'
+                paddingBtn='8px 16px'
             />
         </>
     )

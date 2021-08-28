@@ -12,6 +12,7 @@ const Default = () => {
                 titleColor='black'
                 btnColor='#3F3F3F'
                 boxShadow='0px 2px 3px rgba(51, 51, 51, 0.2)'
+                paddingBtn='8px 16px'
             />
             <ButtonComponent
                 title='&:hover, &:focus'
@@ -21,6 +22,7 @@ const Default = () => {
                 btnColor='#3F3F3F'
                 boxShadow='0px 2px 3px rgba(51, 51, 51, 0.2)'
                 hoverBackground='#AEAEAE'
+                paddingBtn='8px 16px'
             />
         </>
     )

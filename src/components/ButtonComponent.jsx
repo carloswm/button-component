@@ -17,7 +17,7 @@ const Button = styled.button `
     flex-direction: ${props => props.flexDirection};
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 14px;
-    padding: ${props => props.theme.padding};
+    padding: ${props => props.paddingBtn};
     border-radius: 6px;
     border: ${ props => props.borderColor };
     background: ${ props => props.background };
@@ -48,7 +48,8 @@ const ButtonComponent = ({
     boxShadow,
     hoverBackground,
     padding,
-    icon
+    icon,
+    paddingBtn
     }) => {
     return (
         <Container>
@@ -64,6 +65,7 @@ const ButtonComponent = ({
                 boxShadow={ boxShadow }
                 hoverBackground={ hoverBackground }
                 flexDirection={ flexDirection }
+                paddingBtn={ paddingBtn }
             >
                 {
                     icon ? <img src={icon}/> : null
